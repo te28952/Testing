@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-image: url("pexels-craig-dennis-205421.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3));
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav {
+    width: 94.6%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    background: grey ;
+}
+.logo{
+    width: 80px;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 20px 0;
+    background-image: url("logo.jpg");
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+}
