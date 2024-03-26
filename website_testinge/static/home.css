@@ -24,18 +24,24 @@ nav {
     position: absolute;
     top: 0;
     right: 0;
+    background: grey;
     padding: 20px 8%;
-    display: flex;
-    align-items: center;
-    background: grey ;
 }
+
 .logo{
     width: 80px;
     position: absolute;
     top: 0;
-    left: 0px;
+    left: 0;
     padding: 20px 0;
     background-image: url("logo.jpg");
+}
+.cart {
+    background-image: url("shopping-cart-icon-512x462-yrde1eu0.png");
+    background-size: contain;
+    padding: 8px 0;
+    font-size: 11px;
+    color: transparent;
 }
 nav ul li{
     list-style: none;
