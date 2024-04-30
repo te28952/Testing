@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='staff.css') }}">
+</head>
+<body>
+    <div class="hero">
+        <img src="../static/logo.jpg" alt="logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="/users" class="users">Users</a></li>
+                <li><a href="/stock" class="stock">Update Stock</a></li>
+                <li><a href="/order" class="order">Orders</a></li>
+                <li><a href="/" class="logout">Logout</a></li>
+            </ul>
+        </nav>
+    </div>
+</body>
+</html>

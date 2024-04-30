@@ -1,10 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Register</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{ url_for('static', filename='register.css') }}">
+  <title>User Registration</title>
 </head>
 <body>
-
+<div class="content">
+	     <form action="/register" method="post">
+            <label for="FirstName">First Name:</label> <input type="text" name="FirstName" required><br>
+            <label for="LastName">Last Name:</label> <input type="text" name="LastName" required><br>
+             <label for="email">Email:</label> <input type="email" name="email" required><br>
+             <label for="password">Password:</label> <input type="password" name="password" required><br>
+            <input type="submit" value="Register">
+        </form>
 </body>
 </html>
